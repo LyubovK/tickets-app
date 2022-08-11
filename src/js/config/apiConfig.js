@@ -1,6 +1,7 @@
 const config = {
-  url: 'test.api.amadeus.com/v1',
-  apiKey: 'S9ItIun0dfYPyA09wyQwEY7MZlGCsTwV',
+  url: 'https://app.goflightlabs.com',
+  apikey:
+    'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiZjZlNTk0Njc5MDMxZTQ1N2MzNGYzNTYyNWRlODI1MmYwNjRjYTA1NzM2OGUxNzZkNTAwMDk0ZGExMGM1MTJhOTM3OTY1NzNiMTBjZTBmZTYiLCJpYXQiOjE2NjAwODgxMzIsIm5iZiI6MTY2MDA4ODEzMiwiZXhwIjoxNjkxNjI0MTMxLCJzdWIiOiIxMDI5NCIsInNjb3BlcyI6W119.bckGja0NHac_V0jzOKfpnVngOsBmoIFR_PhM0RZGkfBt7mLDi9dJU8GiztVGIx8vUZBdAAFydoEcRgQG5l6X5A',
 };
 
 export default config;

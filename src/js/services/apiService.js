@@ -9,15 +9,15 @@ import config from '../config/apiConfig';
 class Api {
   constructor() {
     this.url = config.url;
-    this.apiKey = config.apiKey;
+    this.apikey = config.apikey;
   }
 
   async countries() {
     try {
       const response = await axios.get(
-        `${this.url}/countries?access_key=${this.apiKey}`
+        `${this.url}/countries?&access_key=${this.apikey}`
       );
-      return response;
+      return response.data;
     } catch (error) {
       console.log(error);
       return Promise.reject(error);
@@ -26,7 +26,7 @@ class Api {
   async cities() {
     try {
       const response = await axios.get(
-        `${this.url}/cities?access_ke=${this.apiKey}`
+        `${this.url}/cities?access_key=${this.apikey}`
       );
       return response.data;
     } catch (error) {
